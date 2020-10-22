@@ -1,0 +1,12 @@
+// .swiper-container>.swiper-wrapper>.swiper-slide*5
+//  <div class="swiper-button-next"></div> nextボタン
+//  <div class="swiper-button-prev"></div> prevボタン
+//  <div class="swiper-pagination"></div>  ページネーション
+
+.swiper-wrapper{
+  transition-timing-function: linear !important;
+}
+
+.swiper-slide img{
+  width: 100%;
+}

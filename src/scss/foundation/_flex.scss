@@ -1,0 +1,13 @@
+@mixin flex($position:xy) {
+  display: flex;
+  @if $position == xy {
+    justify-content: center;
+    align-items: center;
+  }
+  @if $position == x {
+    justify-content: center;
+  }
+  @if $position == y {
+    align-items: center;
+  }
+}

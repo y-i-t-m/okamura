@@ -1,0 +1,30 @@
+@keyframes sticky {
+  0% {
+   top: -124px;
+  }
+  100%{
+    top: 0;
+  }
+}
+
+.l-header {
+  background-color: color(white);
+  width: 100%;
+  transition: all .4s;
+  &.-show{
+    position: sticky;
+    top: 0;
+    left: 0;
+  }
+
+  &__inner {
+    @include flex();
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 24px;
+  }
+
+  &__nav {
+    display: flex;
+  }
+}

@@ -1,0 +1,63 @@
+.l-footer {
+  background-color: color(yellow);
+  padding: 96px 0 24px;
+
+  &__logo {
+    width: 150px;
+    @include breakpoint-down(lg) {
+    flex-basis: 100%;
+    }
+  }
+
+  &__top {
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  &__left-box {
+    @include breakpoint(md) {
+    @include flex(y);
+      flex-flow: row wrap;
+      flex-basis: 50%;
+      max-width: 50%;
+    }
+    @include breakpoint(ml) {
+      flex-basis: 60%;
+      max-width: 60%;
+    }
+    @include breakpoint(lg) {
+      flex-basis: 70%;
+      max-width: 70%;
+    }
+  }
+
+  .l-footer__company {
+    @include breakpoint-down(ml) {
+      flex-basis: 100%;
+    }
+  }
+
+  &__right-box {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    @include breakpoint(md) {
+      flex-basis: 50%;
+      max-width: 50%;
+      justify-content: flex-end;
+    }
+    @include breakpoint(ml) {
+      flex-basis: 40%;
+      max-width: 40%;
+    }
+    @include  breakpoint(lg) {
+      flex-basis: 30%;
+      max-width: 30%;
+    }
+  }
+
+  &__bottom {
+    padding-top: 16px;
+    border-top: 4px dotted color(white);
+  }
+}

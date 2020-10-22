@@ -1,0 +1,16 @@
+@mixin position($position: xy) {
+  position: absolute;
+  @if $position == xy {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  @if $position == x {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  @if $position == y {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}

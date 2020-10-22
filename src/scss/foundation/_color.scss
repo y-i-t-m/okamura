@@ -1,0 +1,27 @@
+$colors: (
+        black: #221714,
+        black2: #555,
+        white: #fff,
+        txt: #595757,
+        gray: #EFEFEF,
+        red: #d61953,
+        blue:#007abd,
+        blue2:#0157a4,
+        yellow:#f1e261,
+        yellow2:#ebc21c,
+        pink:#db3076,
+);
+
+// **
+// * 色変数を取得する
+// * @param {Stirng} $key $colorsのキー
+// * @param {?Float} $opacity 不透明度 0 ~ 1.0
+// * @return {String} カラーコードまたはrgba
+// ************************************************
+@function color($key, $opacity: null) {
+  @if $opacity !=null {
+    @return rgba(map-get($colors, $key), $opacity);
+  }
+
+  @return map-get($colors, $key);
+}
