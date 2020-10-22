@@ -6,7 +6,7 @@ import picturefill from "picturefill";
 import whatInput from 'what-input';
 
 import smoothScroll from "./modules/smoothscroll";
-import slider from "./modules/swiper";
+import {slider} from "./modules/swiper";
 import observerjs from "./modules/observer";
 import sticky from "./modules/sticky";
 

@@ -1,0 +1,289 @@
+@keyframes voice_img_animation1 {
+  0% {
+    transform: translateY(0) scale(1);
+  }
+  33.3333% {
+    transform: translateY(-6px) scale(1);
+  }
+  66.6666% {
+    transform: translateY(0) scale(1);
+  }
+  100% {
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes voice_img_animation2 {
+  0% {
+    transform: translateY(-6px) scale(1);
+  }
+  33.3333% {
+    transform: translateY(0) scale(1);
+  }
+  66.6666% {
+    transform: translateY(-6px) scale(1);
+  }
+  100% {
+    transform: translateY(-6px) scale(1);
+  }
+}
+@keyframes voice_img_animation3 {
+  0% {
+    transform: translateY(-10px) scale(1);
+  }
+  33.3333% {
+    transform: translateY(0) scale(1);
+  }
+  66.6666% {
+    transform: translateY(-10px) scale(1);
+  }
+  100% {
+    transform: translateY(-10px) scale(1);
+  }
+}
+
+@keyframes voice_img_hover_active {
+  0% {
+    animation-play-state: paused;
+    transform: scale(1);
+  }
+  100% {
+    animation-play-state: paused;
+    transform: scale(1.5);
+  }
+}
+
+.voices {
+
+  &__inner {
+    position: relative;
+    height: 840px;
+    max-width: 1190px;
+    width: 100%;
+    margin: auto;
+    background-image: url("./img/voice_bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  &__img {
+    position: absolute;
+    width: auto;
+    transition: transform .3s;
+    transform: scale(1.3);
+
+    &:nth-child(3n) {
+      animation: voice_img_animation1 4s infinite linear;
+    }
+
+    &:nth-child(3n+1) {
+      animation: voice_img_animation2 5s infinite linear;
+    }
+
+    &:nth-child(3n+2) {
+      animation: voice_img_animation3 6s infinite linear;
+    }
+
+    &:hover {
+      animation: voice_img_hover_active .3s;
+      transform: scale(1.5)!important;
+      z-index: 5;
+    }
+
+    &:nth-child(1) { // ハイスペパソコン
+      top: 244px;
+      left: 24px;
+    }
+
+    &:nth-child(2) { // 人前で演奏
+      top: 100px;
+      left: 48px;
+    }
+
+    &:nth-child(3) { // 緑がある
+      top: 560px;
+      left: 850px;
+      z-index: 1;
+    }
+
+    &:nth-child(4) { // 工房的
+      top: 480px;
+      left: 900px;
+    }
+
+    &:nth-child(5) { // 漫画が置いてある
+      top: 610px;
+      left: 880px;
+    }
+
+    &:nth-child(6) { // 空き情報がー
+      top: 640px;
+      left: 800px;
+    }
+
+    &:nth-child(7) { // 動かせるモニター
+      top: 570px;
+      left: 960px;
+    }
+
+    &:nth-child(8) { // 明るい場所
+      top: 610px;
+      left: 204px;
+    }
+
+    &:nth-child(9) { // 今話題の本
+      top: 728px;
+      left: 424px;
+    }
+
+    &:nth-child(10) { //閉じこもれる場所
+      top: 404px;
+      left: 64px;
+    }
+
+    &:nth-child(11) { //ラフな雰囲気
+      top: 688px;
+      left: 524px;
+    }
+
+    &:nth-child(12) { //靴を脱げる
+      top: 688px;
+      left: 664px;
+    }
+
+    &:nth-child(13) { //プロジェクターがある
+      top: 640px;
+      left: 304px;
+    }
+
+    &:nth-child(14) { //壁がある
+      top: 284px;
+      left: 124px;
+    }
+
+    &:nth-child(15) { //雑誌がある
+      top: 464px;
+      left: 124px;
+    }
+
+    &:nth-child(16) { //動かせるホワイトボーど
+      top: 120px;
+      left: 208px;
+    }
+
+    &:nth-child(17) { //わかりやすく情報発信
+      top: 110px;
+      left: 364px;
+    }
+
+    &:nth-child(18) { //広いテーブル
+      top: 404px;
+      left: 184px;
+    }
+
+    &:nth-child(19) { //テスト勉強がしたい
+      top: 510px;
+      left: 244px;
+    }
+
+    &:nth-child(20) { //大きなホワイトボード
+      top: 304px;
+      left: 244px;
+    }
+
+    &:nth-child(21) { //情報共有ノート
+      top: 460px;
+      left: 304px;
+    }
+
+    &:nth-child(22) { //人数に応じて
+      top: 568px;
+      left: 404px;
+    }
+
+    &:nth-child(23) { //皆でワイワイ
+      top: 460px;
+      left: 564px;
+    }
+
+    &:nth-child(24) { //ソファがある
+      top: 588px;
+      left: 564px;
+    }
+
+    &:nth-child(25) { //出入りしやすい
+      top: 588px;
+      left: 704px;
+    }
+
+    &:nth-child(26) { //自由に空間を仕切れる
+      top: 460px;
+      left: 404px;
+    }
+
+    &:nth-child(27) { //行けば誰か
+      top: 320px;
+      left: 404px;
+    }
+
+    &:nth-child(28) { //3dプリンター
+      top: 110px;
+      left: 564px;
+    }
+
+    &:nth-child(29) { //どんな人数でも
+      top: 300px;
+      left: 564px;
+    }
+
+    &:nth-child(30) { //カフェがある
+      top: 100px;
+      left: 664px;
+    }
+
+    &:nth-child(31) { //携帯充電
+      top: 400px;
+      left: 664px;
+    }
+
+    &:nth-child(32) { //見晴らしがいい
+      top: 100px;
+      left: 804px;
+    }
+
+    &:nth-child(33) { //リラックス
+      top: 260px;
+      left: 664px;
+    }
+
+    &:nth-child(34) { //借りることが
+      top: 360px;
+      left: 784px;
+    }
+
+    &:nth-child(35) { //個人作業
+      top: 360px;
+      left: 924px;
+    }
+
+    &:nth-child(36) { //落ち着く香り
+      top: 200px;
+      left: 1004px;
+    }
+
+    &:nth-child(37) { //予約できる部屋
+      top: 108px;
+      left: 964px;
+    }
+
+    &:nth-child(38) { //作品を展示
+      top: 148px;
+      left: 1064px;
+    }
+    &:nth-child(39) { //作品を展示
+      top: 208px;
+      left: 864px;
+    }
+  }
+}
