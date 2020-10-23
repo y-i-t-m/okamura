@@ -16,7 +16,7 @@ module.exports = {
       {
         // 拡張子 .js の場合
         test: /\.js$/,
-        exclude: /node_modules\/(?!(dom7|ssr-window|swiper|@fortawesome)\/).*/,
+        exclude: /node_modules\/(?!(dom7|ssr-window|swiper)\/).*/,
         use: [
           {
             // Babel を利用する
