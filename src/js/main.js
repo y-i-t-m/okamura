@@ -27,5 +27,4 @@ window.addEventListener("DOMContentLoaded", () => {
   picturefill();
   slider();
   observerjs();
-  sticky();
 });
