@@ -1,0 +1,14 @@
+.catch {
+
+  &__main {
+    font-size: rem(40);
+    letter-spacing: ls(150);
+    line-height: 1.2;
+  }
+
+  &__sub {
+    display: block;
+    letter-spacing: ls(200);
+    font-size: rem(14);
+  }
+}

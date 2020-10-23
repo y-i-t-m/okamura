@@ -1,0 +1,41 @@
+.section-heading {
+  text-align: center;
+
+  &__inner {
+
+
+  }
+
+  &__sub {
+    display: inline-block;
+    position: relative;
+    font-size: rem(48);
+    letter-spacing: ls(100);
+    @include font(Catamaran,medium);
+
+    &::before,
+    &::after{
+      content: "";
+      display: block;
+      position: absolute;
+      @include position(y);
+      width: 24px;
+      height: 1px;
+      background-color: color(black);
+    }
+
+    &::before {
+      left: -40px;
+    }
+
+    &::after {
+      right: -40px;
+    }
+  }
+
+  &__main {
+    display: block;
+    @include font(genjyuu, bold);
+    font-size: rem(32);
+  }
+}

@@ -1,0 +1,6 @@
+.logo {
+  position: relative;
+  width: 190px;
+  @include aspect-ratio(42,192);
+  margin-left: auto;
+}

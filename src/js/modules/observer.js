@@ -14,19 +14,16 @@ export default function observerjs() {
       if (entry.isIntersecting) {
         //  ここに要素が交差した際の動作を記述
         console.log("こんにちは");
-        returnButton.classList.remove("-show");
-        header.classList.remove("-show");
+       entry.target.setAttribute("aria-hidden","false")
       } else {
         // ここに要素が交差から外れた場合の記述
         console.log("さようなら");
-        returnButton.classList.add("-show");
-        header.classList.add("-show");
+        entry.target.setAttribute("aria-hidden","true")
       }
     });
   };
 
   const observer = new IntersectionObserver(callback, options);
-  const el = document.querySelector(".target");
+  const el = document.querySelector(".observer-el");
   observer.observe(el);
-
 }

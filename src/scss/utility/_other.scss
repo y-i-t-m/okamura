@@ -16,8 +16,25 @@
 .uppercase {
   text-transform: uppercase;
 }
-.fork {
-  @include font(Fork,normal);
+
+.catamaran {
+  @include font(Catamaran,normal);
+  &.-thin {
+    @include font(Catamaran,thin);
+  }
+  &.-bold {
+    @include font(Catamaran,bold);
+  }
+}
+
+.genjyuu {
+  @include  font(genjyuu,normal);
+  &.-thin {
+    @include font(genjyuu,thin);
+  }
+  &.-bold {
+    @include font(genjyuu,bold);
+  }
 }
 .absolute-xy {
   @include position(xy);
