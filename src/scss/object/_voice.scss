@@ -71,7 +71,6 @@
     position: absolute;
     width: auto;
     transition: transform .3s;
-    transform: scale(1.3);
 
     &:nth-child(3n) {
       animation: voice_img_animation1 4s infinite linear;
@@ -92,17 +91,18 @@
     }
 
     &:nth-child(1) { // ハイスペパソコン
-      top: 244px;
-      left: 24px;
+      top: 200px;
+      left: 0;
+      z-index: 1;
     }
 
     &:nth-child(2) { // 人前で演奏
-      top: 100px;
-      left: 48px;
+      top: 60px;
+      left: 110px;
     }
 
     &:nth-child(3) { // 緑がある
-      top: 560px;
+      top: 526px;
       left: 850px;
       z-index: 1;
     }
@@ -158,22 +158,22 @@
     }
 
     &:nth-child(14) { //壁がある
-      top: 284px;
+      top: 274px;
       left: 124px;
     }
 
     &:nth-child(15) { //雑誌がある
-      top: 464px;
+      top: 480px;
       left: 124px;
     }
 
     &:nth-child(16) { //動かせるホワイトボーど
       top: 120px;
-      left: 208px;
+      left: 236px;
     }
 
     &:nth-child(17) { //わかりやすく情報発信
-      top: 110px;
+      top:70px;
       left: 364px;
     }
 
@@ -193,7 +193,7 @@
     }
 
     &:nth-child(21) { //情報共有ノート
-      top: 460px;
+      top: 418px;
       left: 304px;
     }
 
@@ -213,7 +213,7 @@
     }
 
     &:nth-child(25) { //出入りしやすい
-      top: 588px;
+      top: 550px;
       left: 704px;
     }
 
@@ -223,8 +223,8 @@
     }
 
     &:nth-child(27) { //行けば誰か
-      top: 320px;
-      left: 404px;
+      top: 270px;
+      left: 360px;
     }
 
     &:nth-child(28) { //3dプリンター
@@ -234,11 +234,11 @@
 
     &:nth-child(29) { //どんな人数でも
       top: 300px;
-      left: 564px;
+      left: 520px;
     }
 
     &:nth-child(30) { //カフェがある
-      top: 100px;
+      top: 38px;
       left: 664px;
     }
 
@@ -253,32 +253,32 @@
     }
 
     &:nth-child(33) { //リラックス
-      top: 260px;
+      top: 200px;
       left: 664px;
     }
 
     &:nth-child(34) { //借りることが
       top: 360px;
-      left: 784px;
+      left: 800px;
     }
 
     &:nth-child(35) { //個人作業
       top: 360px;
-      left: 924px;
+      left: 984px;
     }
 
     &:nth-child(36) { //落ち着く香り
-      top: 200px;
+      top: 226px;
       left: 1004px;
     }
 
     &:nth-child(37) { //予約できる部屋
-      top: 108px;
+      top: 70px;
       left: 964px;
     }
 
     &:nth-child(38) { //作品を展示
-      top: 148px;
+      top: 108px;
       left: 1064px;
     }
     &:nth-child(39) { //作品を展示

@@ -1120,6 +1120,20 @@ button.swiper-pagination-bullet {
   padding-left: 2%;
 }
 
+.img {
+  -webkit-transform: translate(-50%, -50%);
+  -o-object-fit: cover;
+  -o-object-position: center center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 100%;
+     object-fit: cover;
+     object-position: center center;
+          transform: translate(-50%, -50%);
+     font-family: "object-fit:cover;object-position:center center";
+}
+
 .swiper-wrapper {
   -webkit-transition-timing-function: linear !important;
           transition-timing-function: linear !important;
@@ -1279,10 +1293,8 @@ button.swiper-pagination-bullet {
 }
 .voices__img {
   -webkit-transition: -webkit-transform 0.3s;
-  -webkit-transform: scale(1.3);
   position: absolute;
   width: auto;
-          transform: scale(1.3);
   transition: -webkit-transform 0.3s;
   transition: transform 0.3s;
   transition: transform 0.3s, -webkit-transform 0.3s;
@@ -1307,16 +1319,17 @@ button.swiper-pagination-bullet {
           animation: voice_img_hover_active 0.3s;
 }
 .voices__img:nth-child(1) {
-  top: 244px;
-  left: 24px;
+  z-index: 1;
+  top: 200px;
+  left: 0;
 }
 .voices__img:nth-child(2) {
-  top: 100px;
-  left: 48px;
+  top: 60px;
+  left: 110px;
 }
 .voices__img:nth-child(3) {
   z-index: 1;
-  top: 560px;
+  top: 526px;
   left: 850px;
 }
 .voices__img:nth-child(4) {
@@ -1360,19 +1373,19 @@ button.swiper-pagination-bullet {
   left: 304px;
 }
 .voices__img:nth-child(14) {
-  top: 284px;
+  top: 274px;
   left: 124px;
 }
 .voices__img:nth-child(15) {
-  top: 464px;
+  top: 480px;
   left: 124px;
 }
 .voices__img:nth-child(16) {
   top: 120px;
-  left: 208px;
+  left: 236px;
 }
 .voices__img:nth-child(17) {
-  top: 110px;
+  top: 70px;
   left: 364px;
 }
 .voices__img:nth-child(18) {
@@ -1388,7 +1401,7 @@ button.swiper-pagination-bullet {
   left: 244px;
 }
 .voices__img:nth-child(21) {
-  top: 460px;
+  top: 418px;
   left: 304px;
 }
 .voices__img:nth-child(22) {
@@ -1404,7 +1417,7 @@ button.swiper-pagination-bullet {
   left: 564px;
 }
 .voices__img:nth-child(25) {
-  top: 588px;
+  top: 550px;
   left: 704px;
 }
 .voices__img:nth-child(26) {
@@ -1412,8 +1425,8 @@ button.swiper-pagination-bullet {
   left: 404px;
 }
 .voices__img:nth-child(27) {
-  top: 320px;
-  left: 404px;
+  top: 270px;
+  left: 360px;
 }
 .voices__img:nth-child(28) {
   top: 110px;
@@ -1421,10 +1434,10 @@ button.swiper-pagination-bullet {
 }
 .voices__img:nth-child(29) {
   top: 300px;
-  left: 564px;
+  left: 520px;
 }
 .voices__img:nth-child(30) {
-  top: 100px;
+  top: 38px;
   left: 664px;
 }
 .voices__img:nth-child(31) {
@@ -1436,27 +1449,27 @@ button.swiper-pagination-bullet {
   left: 804px;
 }
 .voices__img:nth-child(33) {
-  top: 260px;
+  top: 200px;
   left: 664px;
 }
 .voices__img:nth-child(34) {
   top: 360px;
-  left: 784px;
+  left: 800px;
 }
 .voices__img:nth-child(35) {
   top: 360px;
-  left: 924px;
+  left: 984px;
 }
 .voices__img:nth-child(36) {
-  top: 200px;
+  top: 226px;
   left: 1004px;
 }
 .voices__img:nth-child(37) {
-  top: 108px;
+  top: 70px;
   left: 964px;
 }
 .voices__img:nth-child(38) {
-  top: 148px;
+  top: 108px;
   left: 1064px;
 }
 .voices__img:nth-child(39) {
@@ -1820,6 +1833,10 @@ button.swiper-pagination-bullet {
 
 .relative {
   position: relative;
+}
+
+.uppercase {
+  text-transform: uppercase;
 }
 
 .fork {
@@ -2207,28 +2224,18 @@ textarea {
 [data-whatinput=touch] *:focus {
   outline: none;
 }
-
-h1 {
-  color: #d61953;
-  font-family: Fork, sans-serif;
-  font-size: 1.5rem;
-  font-weight: 400;
-}
-
 @media screen and (max-width: 1279.5px){
   .l-footer__logo {
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
   }
 }
-
 @media screen and (max-width: ml){
   .l-footer .l-footer__company {
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
   }
 }
-
 @media screen and (min-width: 1280px){
   .l-footer__left-box {
     -ms-flex-preferred-size: 70%;
@@ -2966,7 +2973,6 @@ h1 {
     text-transform: uppercase;
   }
 }
-
 @media (prefers-reduced-motion: reduce){
   *,
 ::before,
@@ -2983,7 +2989,6 @@ h1 {
             transition-duration: 1ms !important;
   }
 }
-
 @media screen and (min-width: md){
   .l-footer__left-box {
     -webkit-box-align: center;
@@ -3009,7 +3014,6 @@ h1 {
     max-width: 50%;
   }
 }
-
 @media screen and (min-width: ml){
   .l-footer__left-box {
     -ms-flex-preferred-size: 60%;

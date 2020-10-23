@@ -2,101 +2,148 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b375761-3711-42e6-95bb-d8e629ba76dd" name="デフォルト変更リスト" comment="">
-      <change afterPath="$PROJECT_DIR$/src/scss/object/_voice.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/object/_img.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/img/hero_01.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/hero_01.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/hero_02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/hero_02.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/hero_02.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/img/hero_03.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/hero_03.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/img/hero_04.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/hero_04.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/img/hero_05.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/hero_05.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/voice_01.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/voice_01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/voice_01@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/voice_01@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/voice_02.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/voice_02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/voice_02@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/voice_02@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/voice_03.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/voice_03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/voice_03@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/voice_03@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/voice_04.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/voice_04.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/voice_04@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/voice_04@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/voice_05.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/voice_05.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/voice_05@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/voice_05@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/voice_06.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/voice_06.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/voice_06@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/voice_06@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/voice_07.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/voice_07.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/voice_07@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/voice_07@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/voice_08.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/voice_08.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/voice_08@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/voice_08@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/voice_09.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/voice_09.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/voice_09@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/voice_09@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/voice_10.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/voice_10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/voice_10@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/voice_10@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/voice_11.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/voice_11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/voice_11@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/voice_11@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/voice_12.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/voice_12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/voice_12@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/voice_12@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/voice_13.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/voice_13.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/voice_13@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/voice_13@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/voice_14.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/voice_14.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/voice_14@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/voice_14@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/voice_15.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/voice_15.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/voice_15@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/voice_15@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/voice_16@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/voice_16@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/voice_17.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/voice_17.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/voice_17@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/voice_17@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/voice_18.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/voice_18.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/voice_18@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/voice_18@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/voice_19.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/voice_19.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/voice_19@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/voice_19@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/voice_20.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/voice_20.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/voice_20@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/voice_20@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/voice_21.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/voice_21.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/voice_21@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/voice_21@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/voice_22.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/voice_22.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/voice_22@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/voice_22@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/voice_23@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/voice_23@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/voice_bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/voice_bg.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/img/hero_01.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/hero_01.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/hero_02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/hero_02.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/hero_02.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/img/hero_03.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/hero_03.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/img/hero_04.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/hero_04.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/img/hero_05.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/hero_05.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/voice_01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/voice_01@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/voice_02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/voice_02@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/voice_03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/voice_03@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/voice_04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/voice_04@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/voice_05.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/voice_05@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/voice_06.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/voice_06@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/voice_07.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/voice_07@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/voice_08.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/voice_08@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/voice_09.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/voice_09@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/voice_10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/voice_10@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/voice_11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/voice_11@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/voice_12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/voice_12@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/voice_13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/voice_13@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/voice_14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/voice_14@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/voice_15.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/voice_15@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/voice_16.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/voice_16@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/voice_17.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/voice_17@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/voice_18.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/voice_18@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/voice_19.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/voice_19@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/voice_20.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/voice_20@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/voice_21.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/voice_21@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/voice_22.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/voice_22@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/voice_23.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/voice_23@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/voice_24.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/voice_24@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/voice_25.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/voice_25@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/voice_26.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/voice_26@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/voice_27.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/voice_27@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/voice_28.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/voice_28@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/voice_29.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/voice_29@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/voice_30.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/voice_30@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/voice_31.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/voice_31@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/voice_32.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/voice_32@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/voice_33.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/voice_33@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/voice_34.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/voice_34@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/voice_35.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/voice_35@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/voice_36.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/voice_36@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/voice_37.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/voice_37@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/voice_38.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/voice_38@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/voice_01.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/voice_01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/voice_01@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/voice_01@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/voice_02.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/voice_02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/voice_02@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/voice_02@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/voice_03.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/voice_03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/voice_03@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/voice_03@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/voice_04.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/voice_04.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/voice_04@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/voice_04@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/voice_05.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/voice_05.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/voice_05@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/voice_05@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/voice_06.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/voice_06.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/voice_06@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/voice_06@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/voice_07.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/voice_07.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/voice_07@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/voice_07@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/voice_08.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/voice_08.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/voice_08@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/voice_08@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/voice_09.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/voice_09.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/voice_09@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/voice_09@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/voice_10.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/voice_10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/voice_10@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/voice_10@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/voice_11.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/voice_11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/voice_11@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/voice_11@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/voice_12.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/voice_12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/voice_12@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/voice_12@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/voice_13.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/voice_13.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/voice_13@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/voice_13@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/voice_14.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/voice_14.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/voice_14@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/voice_14@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/voice_15.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/voice_15.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/voice_15@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/voice_15@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/voice_16.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/voice_16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/voice_16@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/voice_16@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/voice_17.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/voice_17.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/voice_17@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/voice_17@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/voice_18.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/voice_18.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/voice_18@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/voice_18@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/voice_19.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/voice_19.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/voice_19@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/voice_19@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/voice_20.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/voice_20.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/voice_20@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/voice_20@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/voice_21.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/voice_21.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/voice_21@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/voice_21@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/voice_22.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/voice_22.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/voice_22@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/voice_22@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/voice_23.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/voice_23.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/voice_23@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/voice_23@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/voice_24.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/voice_24.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/voice_24@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/voice_24@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/voice_25.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/voice_25.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/voice_25@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/voice_25@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/voice_26.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/voice_26.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/voice_26@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/voice_26@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/voice_27.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/voice_27.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/voice_27@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/voice_27@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/voice_28.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/voice_28.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/voice_28@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/voice_28@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/voice_29.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/voice_29.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/voice_29@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/voice_29@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/voice_30.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/voice_30.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/voice_30@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/voice_30@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/voice_31.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/voice_31.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/voice_31@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/voice_31@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/voice_32.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/voice_32.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/voice_32@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/voice_32@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/voice_33.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/voice_33.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/voice_33@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/voice_33@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/voice_34.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/voice_34.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/voice_34@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/voice_34@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/voice_35.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/voice_35.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/voice_35@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/voice_35@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/voice_36.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/voice_36.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/voice_36@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/voice_36@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/voice_37.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/voice_37.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/voice_37@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/voice_37@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/voice_38.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/voice_38.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/voice_38@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/voice_38@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/voice_39.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/voice_39.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/voice_39@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/voice_39@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/voice_bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/voice_bg.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/modules/swiper.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/modules/swiper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/object/_voice.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/object/_voice.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/utility/_other.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/utility/_other.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +195,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603327955797</updated>
-      <workItem from="1603327957030" duration="23558000" />
+      <workItem from="1603327957030" duration="29836000" />
     </task>
     <servers />
   </component>
@@ -161,5 +208,9 @@
     </state>
     <state x="1280" y="0" width="929" height="1079" key="dock-window-1/0.0.1280.800/1280.0.2560.1080@0.0.1280.800" timestamp="1603344389481" />
     <state x="1280" y="23" width="929" height="1057" key="dock-window-1/41.0.1239.800/1280.23.2560.1057@41.0.1239.800" timestamp="1603344516624" />
+    <state x="305" y="124" key="search.everywhere.popup" timestamp="1603416056963">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="305" y="124" key="search.everywhere.popup/0.0.1280.800/1280.0.2560.1080@0.0.1280.800" timestamp="1603416056963" />
   </component>
 </project>

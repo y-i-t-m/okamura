@@ -3,9 +3,3 @@
 @import "./object/**/*";
 @import "./utility/**/*";
 @import "./reset";
-
-h1 {
-  color: color(red);
-  font-size: rem(24);
-  @include font(Fork, normal);
-}
