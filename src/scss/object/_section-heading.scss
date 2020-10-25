@@ -37,5 +37,6 @@
     display: block;
     @include font(genjyuu, bold);
     font-size: rem(32);
+    margin-top: 48px;
   }
 }

@@ -1,10 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="7b375761-3711-42e6-95bb-d8e629ba76dd" name="デフォルト変更リスト" comment="">
+      <change afterPath="$PROJECT_DIR$/src/scss/object/_aims-box.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/layout/_grid-large.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/layout/_grid-large.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/object/_section-heading.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/object/_section-heading.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/object/_voice.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/object/_voice.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/utility/_other.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/utility/_other.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,13 +80,41 @@
       <option name="presentableId" value="Default" />
       <updated>1603327955797</updated>
       <workItem from="1603327957030" duration="48165000" />
+      <workItem from="1603612319442" duration="5749000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
+    <state width="1388" height="232" key="GridCell.Tab.0.bottom" timestamp="1603612447009">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1388" height="232" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1603612447009" />
+    <state width="1388" height="232" key="GridCell.Tab.0.center" timestamp="1603612447006">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1388" height="232" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1603612447006" />
+    <state width="1388" height="232" key="GridCell.Tab.0.left" timestamp="1603612447006">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1388" height="232" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1603612447006" />
+    <state width="1388" height="232" key="GridCell.Tab.0.right" timestamp="1603612447008">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1388" height="232" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1603612447008" />
     <state x="1280" y="23" width="929" height="1057" key="dock-window-1" timestamp="1603344516624">
       <screen x="1280" y="23" width="2560" height="1057" />
     </state>

@@ -49,7 +49,7 @@
   }
   100% {
     animation-play-state: paused;
-    transform: scale(1.5);
+    transform: scale(1.3);
   }
 }
 
@@ -86,7 +86,7 @@
 
     &:hover {
       animation: voice_img_hover_active .3s;
-      transform: scale(1.5)!important;
+      transform: scale(1.3)!important;
       z-index: 5;
     }
 

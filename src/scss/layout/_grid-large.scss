@@ -20,6 +20,10 @@
     padding-bottom: $gutter;
     padding-left: $gutter / 2;
 
+    &.-auto {
+      flex-basis: auto;
+    }
+
     @for $i from 1 through 12 {
       &.-col-#{$i} {
         flex-basis: percentage($i/12);
