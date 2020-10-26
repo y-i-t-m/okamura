@@ -20,14 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b375761-3711-42e6-95bb-d8e629ba76dd" name="デフォルト変更リスト" comment="">
-      <change afterPath="$PROJECT_DIR$/src/scss/object/_aims-box.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/layout/_grid-large.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/layout/_grid-large.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/object/_section-heading.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/object/_section-heading.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/object/_voice.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/object/_voice.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/utility/_other.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/utility/_other.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,6 +90,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1388" height="232" key="GridCell.Tab.0.bottom" timestamp="1603612447009">
