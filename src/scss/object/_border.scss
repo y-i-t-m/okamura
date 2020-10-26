@@ -1,0 +1,48 @@
+.border-1 {
+  display: inline-block;
+  position: relative;
+
+  &::before {
+    content: "";
+    display: block;
+    background-image: url("./img/border01.jpg");
+    width: 130px;
+    height: 16px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -60px;
+  }
+}
+
+.border-2 {
+  display: inline-block;
+  position: relative;
+  
+  &::before {
+    content: "";
+    display: block;
+    background-image: url("./img/border02.jpg");
+    width: 96%;
+    height: 16px;
+    position: absolute;
+    left: 0;
+    bottom: -20px;
+  }
+}
+
+.border-3 {
+  display: inline-block;
+  position: relative;
+
+  &::before {
+    content: "";
+    display: block;
+    background-image: url("./img/border03.jpg");
+    width: 98%;
+    height: 12px;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+  }
+}

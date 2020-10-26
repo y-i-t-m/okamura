@@ -1,0 +1,12 @@
+.stool {
+  padding: 40px;
+  background-color: #F3F4F6;
+
+  &__inner {
+    display: flex;
+  }
+
+  &__box {
+    padding-left: 40px;
+  }
+}

@@ -17,11 +17,10 @@
     &::after{
       content: "";
       display: block;
-      position: absolute;
       @include position(y);
       width: 24px;
       height: 1px;
-      background-color: color(black);
+      background-color: color(black2);
     }
 
     &::before {

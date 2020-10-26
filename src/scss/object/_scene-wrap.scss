@@ -1,0 +1,47 @@
+.scene-wrap {
+
+  &__header {
+    padding-left: 40px;
+  }
+
+  &__body {
+    margin-top: 16px;
+     > img {
+       border: 1px solid #ddd;
+     }
+  }
+}
+
+.scene-heading {
+  position: relative;
+
+  &::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    top: 8px;
+    left: -40px;
+  }
+  &.-pre::before {
+    background-image: url("./img/icon_1.png");
+  }
+
+  &.-catch::before {
+    background-image: url("./img/icon_5.png");
+  }
+
+  &.-com::before {
+    background-image: url("./img/icon_2.png");
+  }
+
+  &.-work::before {
+    background-image: url("./img/icon_4.png");
+  }
+
+  &.-collabo::before {
+    background-image: url("./img/icon_3.png");
+  }
+
+}

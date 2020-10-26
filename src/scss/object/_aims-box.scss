@@ -2,11 +2,11 @@
   margin-top: 32px;
   &__inner {
   padding: 32px 56px;
-  border: 2px dotted color(black);
+  border: 1px dotted color(perple1, .5);
   }
 
   &__wrap {
     padding-left: 12px;
-    border-left: 4px solid color(blue);
+    border-left: 4px solid color(blue1, .25);
   }
 }

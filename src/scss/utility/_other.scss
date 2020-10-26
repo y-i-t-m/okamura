@@ -1,11 +1,17 @@
 ._lh-1 {
   line-height: 1;
 }
+._lh-2 {
+  line-height: 2;
+}
 ._ls-0 {
   letter-spacing: 0;
 }
 ._w-full {
   width: 100%;
+}
+._w-auto {
+  width: auto;
 }
 ._fwb {
   font-weight: bold !important;
@@ -15,6 +21,16 @@
 }
 .uppercase {
   text-transform: uppercase;
+}
+
+._aline-center {
+  align-items: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-center {
+  justify-content: center;
 }
 
 .catamaran {

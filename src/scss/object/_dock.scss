@@ -1,0 +1,11 @@
+.dock {
+  position: relative;
+
+  &__kumikae {
+    position: absolute;
+    top: 72px;
+    width: auto;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}

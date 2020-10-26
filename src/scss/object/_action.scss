@@ -1,0 +1,45 @@
+.action {
+  position: relative;
+
+  &__fukidashi {
+    position: absolute;
+    width: 360px;
+    bottom: -94px;
+    right: 24px;
+  }
+
+  &__text-box {
+    position: absolute;
+    padding: 24px;
+    width: 360px;
+    bottom: -70px;
+    right: 24px;
+  }
+}
+
+.action-box {
+
+  &__inner {
+    padding: 32px 48px 64px;
+    border: 2px dotted color(perple1)
+  }
+
+  &__list {
+    flex-basis: 70%;
+    padding-right: 32px;
+  }
+
+  &__item {
+    font-size: rem(20);
+    font-weight: 700;
+    color: #6799B8;
+    padding-left: 12px;
+    line-height: 1.5;
+    margin-top: 20px;
+    border-left: 4px solid color(blue1, .25);
+  }
+
+  &__text {
+    flex-basis: 30%;
+  }
+}

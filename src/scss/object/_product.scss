@@ -1,0 +1,13 @@
+.product {
+
+  &__list {
+    margin-top: 24px;
+  }
+  &__item {
+    font-size: rem(18);
+    font-weight: bold;
+    background-color: #F3F4F6;
+    padding: 12px 32px;
+    border-radius: 4px;
+  }
+}

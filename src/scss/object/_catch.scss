@@ -12,3 +12,25 @@
     font-size: rem(14);
   }
 }
+
+.catch-up {
+  width: 46%;
+}
+
+.catch-box {
+  padding: 24px;
+  border-radius: 4px;
+}
+
+.catch__head {
+  font-size: rem(20);
+  font-weight: bold;
+  margin-top: 32px;
+  padding-left: 24px;
+  border-left: 4px solid color(perple1);
+
+  &.-var {
+    border-color: #1F1F1F;
+    padding-left: 16px;
+  }
+}
