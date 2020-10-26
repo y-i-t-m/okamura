@@ -2,11 +2,12 @@ import Swiper from 'swiper';
 
 export const slider = () => {
   let mySwiper = new Swiper('.swiper-container', {
-    slidesPerView: 5,
+    slidesPerView: 4,
     direction: 'horizontal',
     loopPreventsSlide: false,
     freeMode: true,
     speed: 15000,
+    centeredSlides : true,
     autoplay: {
       delay: 0,
     },

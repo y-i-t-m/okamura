@@ -4,6 +4,10 @@
     display: flex;
   }
 
+  &__item {
+    color: color(gray2);
+  }
+
   &__link {
     padding: 12px 12px 0;
   }
