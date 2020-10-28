@@ -1,4 +1,7 @@
 
 .container {
-  @include container(940);
+  width: 988px;
+  padding-left: 24px;
+  padding-right: 24px;
+  margin: auto;
 }

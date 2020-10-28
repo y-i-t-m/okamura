@@ -3,6 +3,12 @@
 //  <div class="swiper-button-prev"></div> prevボタン
 //  <div class="swiper-pagination"></div>  ページネーション
 
+.swiper-container {
+  @include breakpoint-down(lg) {
+    width: 1200px;
+  }
+}
+
 .swiper-wrapper.-top {
   transition-timing-function: linear !important;
 }

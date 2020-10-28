@@ -1,23 +1,72 @@
+@keyframes width {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 120px;
+  }
+}
+
 .fix-button {
-  position: sticky;
+  position: fixed;
   left: 93%;
   bottom: 3%;
   width: 64px;
   height: 64px;
   visibility: hidden;
   opacity: 0;
-  transition: opacity .3s;
+  transition: opacity .3s, transform .4s;
   display: inline-block;
   z-index: 9;
   border-radius: 50%;
 
-  &:hover,
-  &:focus {
-    opacity: .75;
-  }
-
   &.-active {
     opacity: 1;
     visibility: visible;
+  }
+
+
+
+  &__link {
+    display: block;
+    position: relative;
+
+    &:before {
+      content: "CATALOG";
+      display: block;
+      position: absolute;
+      width: 240px;
+      height: 64px;
+      background-color: #333;
+      @include flex();
+      z-index: -1;
+      border-radius: 32px;
+      opacity: 0;
+      transition: opacity .3s;
+      color: #FFF;
+    }
+
+    &::after {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background-image: url("./img/yazirusi2.png");
+      width: 18px;
+      height: 18px;
+      left: 186px;
+      opacity: 0;
+      transition: opacity .3s;
+      z-index: 1;
+    }
+  }
+  &:hover {
+    transform: translateX(-140px);
+  }
+
+  &:hover .fix-button__link::before,
+  &:hover .fix-button__link::after {
+    opacity: 1;
   }
 }

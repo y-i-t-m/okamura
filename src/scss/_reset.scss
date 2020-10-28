@@ -23,7 +23,6 @@
 // デフォルトのletter-spacingを0に設定
 html {
   font-size: 100%;
-  overflow-x: hidden;
   line-height: 1;
   letter-spacing: 0;
   //英単語を改行するように変更
@@ -37,6 +36,7 @@ html {
   //フォントのアンチエイリアス
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: auto;
 }
 
 body {
