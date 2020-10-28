@@ -1,5 +1,5 @@
 import Stickyfill from "stickyfilljs";
-const element = document.getElementById("return-button");
+const element = document.getElementById("fix-button");
 
 const sticky = () => {
   Stickyfill.add(element);

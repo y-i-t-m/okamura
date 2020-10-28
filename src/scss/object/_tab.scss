@@ -1,0 +1,49 @@
+.tab {
+  margin-top: 40px;
+
+  &__wrap {
+    display: none;
+
+    &.-active {
+      display: block;
+    }
+  }
+  &__inner {
+    border: 2px solid color(black3);
+    border-radius: 12px;
+    padding: 0 40px 32px;
+    height: 420px;
+    display: flex;
+    flex-flow: row wrap;
+    transition: opacity .3s;
+
+  }
+
+  &__box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 46%;
+    padding-top: 40px;
+    padding-left: 40px;
+
+    > img {
+      width: 30%;
+    }
+  }
+
+  &__heading {
+    font-size: rem(20);
+    font-weight: bold;
+  }
+
+  &__text {
+    width: 60%;
+
+    > p {
+      font-size: rem(14);
+      margin-top: 8px;
+      line-height: 2;
+    }
+  }
+}

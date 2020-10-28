@@ -7,7 +7,9 @@ import whatInput from 'what-input';
 
 import smoothScroll from "./modules/smoothscroll";
 import {slider} from "./modules/swiper";
+import {slider2} from "./modules/swiper02";
 import observerjs from "./modules/observer";
+import {tab} from "./modules/tab";
 import sticky from "./modules/sticky";
 
 import {dom, library} from '@fortawesome/fontawesome-svg-core';
@@ -27,4 +29,7 @@ window.addEventListener("DOMContentLoaded", () => {
   picturefill();
   slider();
   observerjs();
+  slider2();
+  tab();
+  sticky();
 });

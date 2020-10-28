@@ -1,21 +1,4 @@
-@keyframes sticky {
-  0% {
-   top: -124px;
-  }
-  100%{
-    top: 0;
-  }
-}
-
 .l-header {
-  background-color: color(white);
-  width: 100%;
-  transition: all .4s;
-  &.-show{
-    position: sticky;
-    top: 0;
-    left: 0;
-  }
 
   &__inner {
     display: flex;
@@ -23,5 +6,27 @@
     padding: 24px 0;
     width: 100%;
   }
+}
 
+.fade-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity .3s;
+  background-color: #fff;
+  z-index: 10;
+
+  &.-active {
+    opacity: 1;
+    visibility: visible;
+  }
+  &__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 16px;
+    padding-bottom: 8px;
+  }
 }

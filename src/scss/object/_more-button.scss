@@ -5,12 +5,18 @@
 .more-button {
   display: inline-block;
   color: #fff;
-  padding: 24px 48px;
+  padding: 24px 72px;
   text-align: center;
   font-weight: bold;
   background-color: color(black3);
   border-radius: 40px;
   font-size: rem(20);
+  transition: opacity .3s;
+
+  &:hover,
+  &:focus {
+    opacity: .75;
+  }
 }
 
 .more-button02 {
@@ -24,4 +30,15 @@
   background-color: color(black3);
   border-radius: 40px;
   font-size: rem(14);
+  position: relative;
+  transition: opacity .3s;
+  &:hover,
+  &:focus {
+    opacity: .75;
+  }
+
+  > img {
+    @include position(y);
+    right: 16px;
+  }
 }

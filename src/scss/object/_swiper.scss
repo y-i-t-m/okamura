@@ -3,10 +3,77 @@
 //  <div class="swiper-button-prev"></div> prevボタン
 //  <div class="swiper-pagination"></div>  ページネーション
 
-.swiper-wrapper{
+.swiper-wrapper.-top {
   transition-timing-function: linear !important;
 }
 
-.swiper-slide img{
+.swiper-slide img {
   width: 100%;
+}
+
+.button-next,
+.button-prev {
+  width: 64px;
+  height: 64px;
+  background-color: #ddd;
+  border-radius: 50%;
+  cursor: pointer;
+  position: absolute;
+  top: 36%;
+  z-index: 1;
+
+  &::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    background-color: #fff;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    z-index: -1;
+
+  }
+
+  &:active::before  {
+    top: 0;
+    left: 0;
+  }
+
+  &::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 47%;
+    left: 48%;
+    transform: translate(-50%,-50%) rotate(-135deg);
+    width: 8px;
+    height: 8px;
+    border-top: 1px solid #333;
+    border-right: 1px solid #333;
+  }
+
+  &:active::after  {
+    top: 48%;
+    left: 49%;
+  }
+}
+
+.button-next {
+  right: 24%;
+  &::after {
+    transform: translate(-50%,-50%) rotate(45deg);
+    left: 46%;
+  }
+}
+
+.button-prev {
+  left: 24%;
+}
+
+.swiper-text {
+  padding-top: 24px;
+  position: relative;
+  @include flex();
 }

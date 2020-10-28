@@ -14,9 +14,16 @@
 }
 
 .catch-up {
-  width: 46%;
-}
+  width: 50%;
 
+  &.-left {
+    padding-right: 40px;
+    border-right: 2px dotted #ddd;
+  }
+  &.-right {
+    padding-left: 40px;
+  }
+}
 .catch-box {
   padding: 24px;
   border-radius: 4px;

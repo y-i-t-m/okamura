@@ -1,29 +1,29 @@
-export default function observerjs() {
+const fixButton = document.getElementById("fix-button");
+const fadeHeader = document.getElementById("fade_header");
 
+export default function observerjs() {
   const options = {
     root: null,
     rootMargin: "-50% 0px",
     threshold: 0
   };
-  const returnButton = document.getElementById("return-button");
-  const header = document.getElementById("header");
-
 // observerのcallback関数の作成
   const callback = (entries, observer) => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
         //  ここに要素が交差した際の動作を記述
-        console.log("こんにちは");
-       entry.target.setAttribute("aria-hidden","false")
+        fixButton.classList.remove("-active")
+        fadeHeader.classList.remove("-active")
+        entry.target.setAttribute("aria-hidden", "true")
       } else {
-        // ここに要素が交差から外れた場合の記述
-        console.log("さようなら");
-        entry.target.setAttribute("aria-hidden","true")
+        fixButton.classList.add("-active")
+        fadeHeader.classList.add("-active")
+        entry.target.setAttribute("aria-hidden", "false")
       }
     });
   };
-
   const observer = new IntersectionObserver(callback, options);
   const el = document.querySelector(".observer-el");
   observer.observe(el);
 }
+// observer.unobserve(entry.target);
