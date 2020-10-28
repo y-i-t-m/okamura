@@ -20,22 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b375761-3711-42e6-95bb-d8e629ba76dd" name="デフォルト変更リスト" comment="">
-      <change afterPath="$PROJECT_DIR$/src/scss/object/_fade.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/catch02.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/catch02.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/catch03.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/catch03.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/dock.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/dock.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/product02.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/product02.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/product03.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/product03.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/modules/fade.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/modules/fade.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/foundation/_color.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/foundation/_color.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/object/_section-heading.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/object/_section-heading.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/object/_voice.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/object/_voice.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/utility/_margin.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/utility/_margin.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/utility/_padding.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/utility/_padding.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
