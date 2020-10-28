@@ -11,5 +11,5 @@ export default function fadeObserver() {
 
   const fade = new IntersectionObserver(cb,option);
   const fadeEl = document.querySelectorAll(".fade-el");
-  observer.observe(fadeEl);
+  fade.observe(fadeEl);
 }

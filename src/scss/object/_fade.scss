@@ -1,0 +1,13 @@
+.sa {
+  opacity: 0;
+  transition: opacity .75s, transform .75s;
+}
+
+.sa--up {
+  transform: translateY(40px);
+}
+.sa.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
