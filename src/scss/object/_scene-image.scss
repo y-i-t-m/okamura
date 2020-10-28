@@ -5,11 +5,13 @@
     position: absolute;
     top: 48px;
     left: 270px;
+    pointer-events: visible;
   }
 
   &__b {
     position: absolute;
     top: 200px;
     left: 626px;
+    pointer-events: visible;
   }
 }

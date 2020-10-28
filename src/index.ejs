@@ -580,15 +580,19 @@
                     <h3 class="_t-center _mt-96 _fz-20">Scene image</h3>
                     <div class="scene-image _mt-32">
                         <img src="./img/scene-image.jpg" width="940" height="450" alt="">
-                        <img id="scene_image_a" class="scene-image__a _w-auto" src="./img/a-black.png" width="245"
+                        <a href="javascript:void(0)" class="scene-image__a tabjs">
+                        <img id="scene_image_a" class="_w-auto" src="./img/a-black.png" width="245"
                              height="185" alt="">
-                        <img id="scene_image_b" class="scene-image__b _w-auto" src="./img/b-gray.png" width="295"
+                        </a>
+                        <a id="scene_b_link" href="javascript:void(0)" class="scene-image__b tabjs">
+                        <img id="scene_image_b" class=" _w-auto" src="./img/b-gray.png" width="295"
                              height="230" alt="">
+                        </a>
                     </div>
                     <div class="tab -active sa sa--up">
                         <div class="tab-button-box">
-                            <button type="button" id="button_a" class="tab-button catamaran -bold -active">A</button>
-                            <button type="button" id="button_b" class="tab-button catamaran -bold _ml-8">B</button>
+                            <button type="button" id="button_a" class="tab-button tabjs catamaran -bold -active">A</button>
+                            <button type="button" id="button_b" class="tab-button tabjs catamaran -bold _ml-8">B</button>
                         </div>
                         <div id="tab_a" class="tab__wrap -active">
                             <div class="tab__inner">

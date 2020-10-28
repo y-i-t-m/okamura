@@ -42,7 +42,8 @@
       z-index: -1;
       border-radius: 32px;
       opacity: 0;
-      transition: opacity .3s;
+      visibility: hidden;
+      transition: opacity .3s, visibility .3s;
       color: #FFF;
     }
 
@@ -57,7 +58,8 @@
       height: 18px;
       left: 186px;
       opacity: 0;
-      transition: opacity .3s;
+      visibility: hidden;
+      transition: opacity .3s, visibility .3s;
       z-index: 1;
     }
   }
@@ -66,7 +68,10 @@
   }
 
   &:hover .fix-button__link::before,
-  &:hover .fix-button__link::after {
+  &:hover .fix-button__link::after,
+  &:focus .fix-button__link::before,
+  &:focus .fix-button__link::after {
     opacity: 1;
+    visibility: visible;
   }
 }

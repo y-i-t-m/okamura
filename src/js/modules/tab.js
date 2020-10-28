@@ -4,8 +4,10 @@ const sceneA = document.getElementById("scene_image_a");
 const sceneB = document.getElementById("scene_image_b");
 const tabPanelA = document.getElementById("tab_a");
 const tabPanelB = document.getElementById("tab_b");
+// const imageA = document.getElementById("scene_a_link");
+// const imageB = document.getElementById("scene_b_link");
 
-const tabButtons = document.querySelectorAll(".tab-button");
+const tabButtons = document.querySelectorAll(".tabjs");
 export const tab = () => {
   tabButtons.forEach(tabButton => {
     tabButton.addEventListener("click", () => {
