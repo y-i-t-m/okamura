@@ -20,11 +20,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b375761-3711-42e6-95bb-d8e629ba76dd" name="デフォルト変更リスト" comment="">
+      <change afterPath="$PROJECT_DIR$/src/img/stool02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/stool03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/stool04.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/a-01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/a-01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/a-02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/a-02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/a-03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/a-03.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/a-04.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/a-04.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/b-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/b-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/b-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/b-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/b-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/b-3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/b-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/b-4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/logo-main.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/logo-main.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/product04.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/product04.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/product05.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/product05.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/voice_13@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/voice_13@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/voice_15@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/voice_15@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/voice_16@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/voice_16@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/voice_17@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/voice_17@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/voice_21@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/voice_21@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/voice_24@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/voice_24@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/voice_26@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/voice_26@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/voice_27@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/voice_27@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/voice_31@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/voice_31@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/voice_33@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/voice_33@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/voice_34@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/voice_34@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/voice_35@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/voice_35@2x.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/modules/tab.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/modules/tab.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/modules/swiper02.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/modules/swiper02.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/_reset.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_reset.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/object/_contact.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/object/_contact.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/object/_fix-button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/object/_fix-button.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/object/_scene-image.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/object/_scene-image.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/object/_tab.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/object/_tab.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/object/_voice.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/object/_voice.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +77,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -78,6 +109,10 @@
       <updated>1603327955797</updated>
       <workItem from="1603327957030" duration="48165000" />
       <workItem from="1603612319442" duration="9349000" />
+      <workItem from="1603876841319" duration="1119000" />
+      <workItem from="1603933968507" duration="6640000" />
+      <workItem from="1603974418211" duration="670000" />
+      <workItem from="1604299173786" duration="2919000" />
     </task>
     <servers />
   </component>
@@ -95,6 +130,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="330" y="200" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603704494894">
@@ -117,11 +155,12 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1388" height="232" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1603612447008" />
-    <state x="1280" y="23" width="929" height="1057" key="dock-window-1" timestamp="1603344516624">
-      <screen x="1280" y="23" width="2560" height="1057" />
+    <state x="1307" y="23" width="988" height="608" key="dock-window-1" timestamp="1603939376396">
+      <screen x="1280" y="0" width="2560" height="1080" />
     </state>
-    <state x="1280" y="0" width="929" height="1079" key="dock-window-1/0.0.1280.800/1280.0.2560.1080@0.0.1280.800" timestamp="1603344389481" />
+    <state x="1307" y="23" width="988" height="608" key="dock-window-1/0.0.1280.800/1280.0.2560.1080@0.0.1280.800" timestamp="1603939376396" />
     <state x="1280" y="23" width="929" height="1057" key="dock-window-1/41.0.1239.800/1280.23.2560.1057@41.0.1239.800" timestamp="1603344516624" />
+    <state x="1289" y="41" width="988" height="608" key="dock-window-1/44.0.1236.800/1280.23.2560.1057@44.0.1236.800" timestamp="1603935979154" />
     <state x="2466" y="89" width="956" height="736" key="dock-window-2" timestamp="1603694145998">
       <screen x="1280" y="0" width="2560" height="1080" />
     </state>
@@ -132,10 +171,10 @@
     </state>
     <state x="1476" y="25" width="994" height="762" key="dock-window-3/0.0.1280.800/1280.0.2560.1080@0.0.1280.800" timestamp="1603869027687" />
     <state x="1280" y="23" width="994" height="762" key="dock-window-3/44.0.1236.800/1280.23.2560.1057@44.0.1236.800" timestamp="1603864985823" />
-    <state x="274" y="139" width="731" height="580" key="find.popup" timestamp="1603868388654">
+    <state x="274" y="139" width="731" height="580" key="find.popup" timestamp="1604299999631">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="274" y="139" width="731" height="580" key="find.popup/0.0.1280.800/1280.0.2560.1080@0.0.1280.800" timestamp="1603868388654" />
+    <state x="274" y="139" width="731" height="580" key="find.popup/0.0.1280.800/1280.0.2560.1080@0.0.1280.800" timestamp="1604299999631" />
     <state x="308" y="156" width="823" height="653" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1603716664048" />
     <state x="305" y="124" key="search.everywhere.popup" timestamp="1603416056963">
       <screen x="0" y="0" width="1280" height="800" />

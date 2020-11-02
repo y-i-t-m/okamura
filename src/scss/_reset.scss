@@ -176,21 +176,21 @@ textarea {
 }
 
 //端末の設定でトランジションとアニメーションを切っている人にはアニメーションとトランジションさせない
-@media (prefers-reduced-motion: reduce) {
-
-  *,
-  ::before,
-  ::after {
-    -webkit-animation-delay: -1ms !important;
-    animation-delay: -1ms !important;
-    -webkit-animation-duration: 1ms !important;
-    animation-duration: 1ms !important;
-    -webkit-animation-iteration-count: 1 !important;
-    animation-iteration-count: 1 !important;
-    transition-delay: 0s !important;
-    transition-duration: 1ms !important;
-  }
-}
+//@media (prefers-reduced-motion: reduce) {
+//
+//  *,
+//  ::before,
+//  ::after {
+//    -webkit-animation-delay: -1ms !important;
+//    animation-delay: -1ms !important;
+//    -webkit-animation-duration: 1ms !important;
+//    animation-duration: 1ms !important;
+//    -webkit-animation-iteration-count: 1 !important;
+//    animation-iteration-count: 1 !important;
+//    transition-delay: 0s !important;
+//    transition-duration: 1ms !important;
+//  }
+//}
 
 //mouseとtouchではoutlineを表示しない
 [data-whatinput='mouse'] *:focus,

@@ -11,7 +11,7 @@
   &__inner {
     border: 2px solid color(black3);
     border-radius: 12px;
-    padding: 0 40px 32px;
+    padding: 0 16px 32px;
     height: 420px;
     display: flex;
     flex-flow: row wrap;
@@ -23,12 +23,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 46%;
+    width: 48%;
     padding-top: 40px;
     padding-left: 40px;
 
     > img {
-      width: 30%;
+      width: 38%;
     }
   }
 
@@ -38,7 +38,7 @@
   }
 
   &__text {
-    width: 60%;
+    width: 57%;
 
     > p {
       font-size: rem(14);
